@@ -4,5 +4,5 @@ then run docker-compose file:
 then run this project
 
 endpoints for custom metrics:
-actuator/metrics/android.jobs.completed
+actuator/metrics/android.jobs.completed,
 actuator/metrics/android.queue.size
