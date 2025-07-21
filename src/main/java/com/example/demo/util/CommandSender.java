@@ -21,7 +21,7 @@ public class CommandSender implements CommandLineRunner {
     public void run(String... args) {
         String url = "http://localhost:8080/api/commands";
 
-        for (int i = 1; i <= 200; i++) {
+        for (int i = 1; i <= 50; i++) {
             Command command = new Command(
                     "desc: " + i,
                     i % 2 == 0 ? Priority.COMMON : Priority.CRITICAL,
